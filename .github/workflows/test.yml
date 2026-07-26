@@ -2,7 +2,7 @@ name : testing testing workflow
 # Events to fire the workflow
 on : 
     push:
-        branches : main
+        branches : main_dont_run
 jobs :
     # your first job name
      say-hello:
